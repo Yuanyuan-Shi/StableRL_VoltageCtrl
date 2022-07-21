@@ -5,6 +5,15 @@ Authors: Yuanyuan Shi, Guannan Qu, Steven Low, Anima Anandkumar and Adam Wierman
 
 Accepted to be present at 2022 American Control Conference (ACC).
 
+### Citation
+@inproceedings{shi2021stability,
+  title={Stability constrained reinforcement learning for real-time voltage control},
+  author={Shi, Yuanyuan and Qu, Guannan and Low, Steven and Anandkumar, Anima and Wierman, Adam},
+  booktitle={2022 Annual American Control Conference (ACC)},
+  year={2022},
+  organization={IEEE}
+}
+
 ### Voltage Control Performance in South California Edison 56 bus distribution system
 
 ### Visualization of DDPG, Stable-DDPG and Baseline Linear Policy
