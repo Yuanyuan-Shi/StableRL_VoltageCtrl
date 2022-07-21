@@ -1,5 +1,5 @@
 # StableRL_VoltageCtrl
-This repository contains source code necessary to reproduce the results presented in the following paper: Stability Constrained Reinforcement Learning for Real-Time Voltage Control (https://arxiv.org/pdf/2109.14854.pdf).
+This repository contains source code necessary to reproduce the results presented in the following paper: Stability Constrained Reinforcement Learning for Real-Time Voltage Control (https://arxiv.org/pdf/2109.14854.pdf). It also provides an OpenAI Gym environment for training various Reinforcement Learning algorithms in the South California Edison 56 bus distribution system. 
 
 Authors: Yuanyuan Shi, Guannan Qu, Steven Low, Anima Anandkumar and Adam Wierman
 
@@ -16,13 +16,11 @@ Accepted to be present at 2022 American Control Conference (ACC).
 }
 ```
 
-### Voltage Control Performance in South California Edison 56 bus distribution system
-
-### Visualization of DDPG, Stable-DDPG and Baseline Linear Policy
+### Visualization of Stable-DDPG, DDPG, and Baseline Linear Policy
 
 ![alt text](https://github.com/Yuanyuan-Shi/stable_rl_voltagecontrol/blob/main/policy.png)
 
-### DDPG v.s. Stable-DDPG v.s. Baseline Linear Policy
+### Stable-DDPG v.s. DDPG v.s. Baseline Linear Policy
 
 As shown in Fig 4 in the submitted paper, baseline DDPG does not guarantee stability and thus can lead to ``infinite'' voltage recovery time and control cost. To obtain a reasonable comparison, we limit the max episode length to be T= 100, and compare the voltage recovery time (steps) and reactive power consumption (MVar) on 500 different voltage violation scenarios. Here are the results.
 
